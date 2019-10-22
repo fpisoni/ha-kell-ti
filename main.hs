@@ -14,8 +14,9 @@ makeFig 'o' = Circle
 makeFig 'n' = Null
 --- Creo que las input se hacen de otra forma, hay que chekear la monada IO y ver como se piden inputs del usuario
 
-makeCell :: a -> Cell
-makeCell = makeFig n
+---
+---makeCell :: a -> Fig
+---makeCell = makeFig n
 
 makeRow :: a -> Row
 makeRow =
