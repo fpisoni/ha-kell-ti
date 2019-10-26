@@ -25,3 +25,4 @@ printFig Null   = '-'
 
 -- makeRow :: a -> Row
 -- makeRow =
+-- Estuve pensando y no creo que vayamos a necesitar ninguna funcion make porque leemos de un archivo el Board
