@@ -1,0 +1,213 @@
+Estados del Board posibles con la jugada optima
+
+- - -
+- - -  =>  NO hay jugada optima
+- - -
+
+Center start
+
+First move
+- - -      o - -
+- x -  =>  - x -
+- - -      - - -
+
+Second move
+o - -      o - -
+- x -  =>  - x -
+- - -      - - x
+
+- - -      - - x  |  x - -  |  - - -
+o x -  =>  o x -  |  o x -  |  o x -
+- - -      - - -  |  - - -  |  - x -
+
+Third move
+o - -      o - -
+- x -  =>  - x -
+- - x      o - x
+
+- - -      - o -
+o x -  =>  o x -
+- x -      - x -
+
+x - -      x - -
+o x -  =>  o x -
+- - -      - - o
+
+- - x      - - x
+o x -  =>  o x -
+- - -      o - -
+
+Fourth move
+o - -      o - -
+- x -  =>  x x -
+o - x      o - x
+
+- o -      - o -
+o x -  =>  o x -
+- x -      x x -
+
+x - -      x x -
+o x -  =>  o x -
+- - o      - - o
+
+- - x      x - x
+o x -  =>  o x -
+o - -      o - -
+
+Fifth move
+o - -      o - -
+x x -  =>  x x o
+o - x      o - x
+
+- o -
+o x -  =>  NO hay jugada optima
+x x -
+
+x x -
+o x -  =>  NO hay jugada optima
+- - o
+
+x - x
+o x -  =>  NO hay jugada optima
+o - -
+
+o - o
+x x -  =>  NO hay jugada optima
+o - x
+
+o - -
+x x o  =>  NO hay jugada optima
+o - x
+
+Corner Start
+
+First move
+x - -      x - -
+- - -  =>  - o -
+- - -      - - -
+
+Second move
+x - -      x - -
+- o -  =>  - o -
+- - -      - - x
+
+x - -      x - -
+- - -  =>  - - -
+- - o      x - o
+
+x - -      x - -
+- - -  =>  - - -
+- o -      x o -
+
+x - -      x - -
+- - -  =>  - - -
+o - -      o - x
+
+x - -      x - -
+o - -  =>  o x -
+- - -      - - -
+
+Third move
+x - -      x - -
+- o -  =>  - o o
+- - x      - - x
+
+x - -      x - -
+- - -  =>  o - -
+x - o      x - o
+
+x - -      x - -
+- - -  =>  o - -
+x o -      x o -
+
+x - -      x - -
+- - -  =>  - o -
+o - x      o - x
+
+x - -      x - -
+o x -  =>  o x -
+- - -      - - o
+
+Fourth move
+x - -      x - -
+- o o  =>  x o o
+- - x      - - x
+
+x - -      x - x
+o - -  =>  o - -
+x - o      x - o
+
+x - -      x - x
+o - -  =>  o - -
+x o -      x o -
+
+x - -      x - x
+- o -  =>  - o -
+o - x      o - x
+
+x - -      x - x  |  x x -
+o x -  =>  o x -  |  o x -
+- - o      - - o  |  - - o
+
+Fifth move
+x - -      x - -
+x o o  =>  x o o
+- - x      o - x
+
+x - x
+o - -  =>  NO hay jugada optima
+x - o
+
+x - x
+o - -  =>  NO hay jugada optima
+x o -
+
+x - x
+- o -  =>  NO hay jugada optima
+o - x
+
+x - x
+o x -  =>  NO hay jugada optima
+- - o
+
+x x -
+o x -  =>  NO hay jugada optima
+- - o
+
+Sixth move
+x - -      x - x
+x o o  =>  x o o
+o - x      o - x
+
+Seventh move
+x - x      x o x
+x o o  =>  x o o
+o - x      o - x
+
+Border Start
+
+First move
+- - -      - - -
+x - -  =>  x - -
+- - -      - - -
+
+Second move
+- - -      - - -
+x o -  =>  x o -
+- - -      - x -
+
+- - -      - - -
+x - -  =>  x - -
+- - o      x - o
+
+- - -      - - -
+x - -  =>  x - -
+- o -      x o -
+
+- - -      - - -
+x - -  =>  x - -
+o - -      o - -
+
+- - -      - - -
+x - o  =>  x - o
+- - -      - - -
