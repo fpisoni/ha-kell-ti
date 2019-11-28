@@ -1,4 +1,5 @@
 import Data.Array.Repa
+import Data.Char
 
 -- data definitions
 data Fig   = Circle | Cross | Null
@@ -10,7 +11,7 @@ data Board = MkBoard (Array U DIM2 Cell)
 
 main = do
           contents  <- readFile "C:\\Users\\Lautarito\\Desktop\\has-kell-ti\\board"
-          let cells = map readFig (takeWhile (/= ' ') contentents)
+          let cells = map readFig (takeWhile (not isSpace) contentents)
           let board = fromListUnboxed (Z :. (3::int) :. (3::int)) cells
           putStr "not finished" -- Es necesario el putStr para que no se rompa la monada
 
